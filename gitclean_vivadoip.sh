@@ -1,0 +1,12 @@
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.v' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.xml' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.xdc' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.vhdl' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.vho' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.vh' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.dcp' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.veo' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.vhd' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*.txt' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*/hdl/' --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.srcs/sources_1/ip/*/doc/' --prune-empty --tag-name-filter cat -- --all
